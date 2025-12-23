@@ -1,0 +1,378 @@
+2025.12.23 12:11:15 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2025.12.23 12:11:15 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:16 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:16 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:16 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:16 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:17 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:16 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:16 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:17 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:16 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:16 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:17 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:11:18 INFO  Running List(/home/hachoj/.local/share/coursier/bin/scala-cli, setup-ide, /home/hachoj/Projects/Functional-Programming-In-Scala)[0m
+2025.12.23 12:11:17 INFO  Attempting to connect to the build server...[0m
+2025.12.23 12:11:17 INFO  Running BSP server List(/home/hachoj/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-options-v2.json, --json-launcher-options, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-launcher-options.json, --envs-file, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-envs.json, /home/hachoj/Projects/Functional-Programming-In-Scala)[0m
+2025.12.23 12:11:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/hachoj/Projects/Functional-Programming-In-Scala/.metals/bsp.trace.json or /home/hachoj/.cache/metals/bsp.trace.json[0m
+2025.12.23 12:11:19 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.11.6/librarymanagement-ivy_2.12-1.11.6.jar[0m
+2025.12.23 12:11:21 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.11.6/librarymanagement-ivy_2.12-1.11.6.jar[0m
+2025.12.23 12:11:21 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.11.6/librarymanagement-ivy_2.12-1.11.6.jar.sha1[0m
+2025.12.23 12:11:21 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.11.6/librarymanagement-ivy_2.12-1.11.6.jar.sha1[0m
+2025.12.23 12:11:21 INFO  BSP server: Starting compilation server[0m
+2025.12.23 12:11:22 INFO  Shutting down server[0m
+2025.12.23 12:11:22 INFO  shutting down Metals[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@29ee9faa[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 107]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:539)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@29ee9faa[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 107]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:539)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2025.12.23 12:14:59 INFO  Started: Metals version 1.6.4 in folders '/home/hachoj/Projects/Functional-Programming-In-Scala' for client Neovim 0.11.5.[0m
+2025.12.23 12:15:00 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2025.12.23 12:15:00 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:15:00 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:15:00 INFO  Attempting to connect to the build server...[0m
+2025.12.23 12:15:00 INFO  Running BSP server List(/home/hachoj/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-options-v2.json, --json-launcher-options, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-launcher-options.json, --envs-file, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-envs.json, /home/hachoj/Projects/Functional-Programming-In-Scala)[0m
+2025.12.23 12:15:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/hachoj/Projects/Functional-Programming-In-Scala/.metals/bsp.trace.json or /home/hachoj/.cache/metals/bsp.trace.json[0m
+2025.12.23 12:15:02 INFO  time: Connected to build server in 1.39s[0m
+2025.12.23 12:15:02 INFO  Connected to Build server: scala-cli v1.11.0[0m
+2025.12.23 12:15:02 INFO  time: Imported build in 0.48s[0m
+2025.12.23 12:15:02 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:15:02 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:15:02 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:15:04 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+Dec 23, 2025 12:15:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2025.12.23 12:15:11 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 6.87s[0m
+2025.12.23 12:15:11 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:15:11 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.33s[0m
+2025.12.23 12:15:12 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.12.23 12:15:13 INFO  time: indexed workspace in 10s[0m
+2025.12.23 12:15:13 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:15:13 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.2s[0m
+2025.12.23 12:15:23 WARN  Could not find semantic tokens for: file:///home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala[0m
+2025.12.23 12:15:53 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:15:53 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 51.376s)[0m
+2025.12.23 12:15:53 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:15:53 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.28s[0m
+2025.12.23 12:15:53 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:15:53 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.14s[0m
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2025.12.23 12:16:25 INFO  Cancelling compilation on scala-cli server[0m
+Dec 23, 2025 12:16:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+2025.12.23 12:16:25 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:25 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 1m 23.531s)[0m
+2025.12.23 12:16:25 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:25 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 1m 23.657s)[0m
+2025.12.23 12:16:25 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:25 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.48s[0m
+2025.12.23 12:16:25 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:26 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.27s[0m
+2025.12.23 12:16:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.12.23 12:16:26 INFO  time: indexed workspace in 1.74s[0m
+2025.12.23 12:16:26 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:27 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.2s[0m
+2025.12.23 12:16:33 ERROR scalafmt: [3.10.0] /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala:1: error: [dialect scala3] `;` expected but `:` found
+object MyProgram: ①
+                ^[0m
+2025.12.23 12:16:42 INFO  Cancelling compilation on scala-cli server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 40, method: 'buildTarget/compile') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1474)
+[0m
+2025.12.23 12:16:42 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:42 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 1m 41.024s)[0m
+2025.12.23 12:16:42 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:42 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 1m 41.188s)[0m
+2025.12.23 12:16:42 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:42 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.18s[0m
+2025.12.23 12:16:42 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:42 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.2s[0m
+2025.12.23 12:16:44 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.12.23 12:16:44 INFO  time: indexed workspace in 1.5s[0m
+2025.12.23 12:16:44 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:44 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.16s[0m
+2025.12.23 12:16:58 INFO  Cancelling compilation on scala-cli server[0m
+Dec 23, 2025 12:16:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+2025.12.23 12:16:58 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:58 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 1m 56.658s)[0m
+2025.12.23 12:16:58 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:58 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 1m 56.792s)[0m
+2025.12.23 12:16:58 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:58 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 57ms[0m
+2025.12.23 12:16:58 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:58 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.2s[0m
+2025.12.23 12:16:59 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.12.23 12:16:59 INFO  time: indexed workspace in 1.43s[0m
+2025.12.23 12:16:59 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:16:59 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.13s[0m
+2025.12.23 12:17:16 INFO  Cancelling compilation on scala-cli server[0m
+2025.12.23 12:17:16 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:16 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 2m 14.965s)[0m
+2025.12.23 12:17:16 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:16 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 2m 15.081s)[0m
+2025.12.23 12:17:16 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:16 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 54ms[0m
+2025.12.23 12:17:16 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:16 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.22s[0m
+2025.12.23 12:17:18 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:18 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.12.23 12:17:18 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.14s[0m
+2025.12.23 12:17:18 INFO  time: indexed workspace in 1.52s[0m
+2025.12.23 12:17:18 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:18 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 84ms[0m
+2025.12.23 12:17:33 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:33 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 2m 31.789s)[0m
+2025.12.23 12:17:33 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:34 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 1.35s[0m
+2025.12.23 12:17:39 INFO  Cancelling compilation on scala-cli server[0m
+2025.12.23 12:17:39 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:39 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 2m 37.695s)[0m
+2025.12.23 12:17:39 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:39 INFO  Deduplicating compilation of Functional-Programming-In-Scala_9103e38db1 from bsp client 'scala-cli 1.11.0' (since 2m 37.844s)[0m
+2025.12.23 12:17:39 INFO  compiling functional-programming-in-scala_9103e38db1 (1 scala source)[0m
+2025.12.23 12:17:39 INFO  time: compiled Functional-Programming-In-Scala_9103e38db1 in 0.47s[0m
+2025.12.23 12:17:41 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.12.23 12:17:41 INFO  time: indexed workspace in 1.67s[0m
+2025.12.23 12:19:34 INFO  Shutting down server[0m
+2025.12.23 12:19:34 INFO  shutting down Metals[0m
+2025.12.23 12:19:34 INFO  Shut down connection with build server.[0m
+2025.12.23 12:19:34 INFO  Cancelling compilation on scala-cli server[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@29ee9faa[Shutting down, pool size = 4, active threads = 3, queued tasks = 0, completed tasks = 4891]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:539)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@29ee9faa[Shutting down, pool size = 4, active threads = 3, queued tasks = 0, completed tasks = 4891]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:539)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2025.12.23 12:19:34 INFO  unable to setup persistent H2 database with AUTO_SERVER=true, falling back to AUTO_SERVER=false.[0m
+2025.12.23 12:20:22 INFO  Started: Metals version 1.6.4 in folders '/home/hachoj/Projects/Functional-Programming-In-Scala' for client Neovim 0.11.5.[0m
+2025.12.23 12:20:24 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2025.12.23 12:20:24 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:20:25 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:20:25 INFO  Attempting to connect to the build server...[0m
+2025.12.23 12:20:25 INFO  Running BSP server List(/home/hachoj/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-options-v2.json, --json-launcher-options, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-launcher-options.json, --envs-file, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-envs.json, /home/hachoj/Projects/Functional-Programming-In-Scala)[0m
+2025.12.23 12:20:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/hachoj/Projects/Functional-Programming-In-Scala/.metals/bsp.trace.json or /home/hachoj/.cache/metals/bsp.trace.json[0m
+2025.12.23 12:20:26 INFO  time: Connected to build server in 1.06s[0m
+2025.12.23 12:20:26 INFO  Connected to Build server: scala-cli v1.11.0[0m
+2025.12.23 12:20:26 INFO  time: Imported build in 0.12s[0m
+2025.12.23 12:20:27 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:20:26 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:20:27 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:20:30 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.12.23 12:20:30 INFO  time: indexed workspace in 3.95s[0m
+2025.12.23 12:20:39 INFO  Shutting down server[0m
+2025.12.23 12:20:39 INFO  shutting down Metals[0m
+2025.12.23 12:20:39 INFO  Shut down connection with build server.[0m
+2025.12.23 12:20:39 INFO  Cancelling compilation on scala-cli server[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@29ee9faa[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 638]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:539)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@29ee9faa[Shutting down, pool size = 3, active threads = 3, queued tasks = 0, completed tasks = 639]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:539)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2025.12.23 12:20:51 INFO  Started: Metals version 1.6.4 in folders '/home/hachoj/Projects/Functional-Programming-In-Scala' for client Neovim 0.11.5.[0m
+2025.12.23 12:20:54 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2025.12.23 12:20:54 INFO  no build target found for /home/hachoj/Projects/Functional-Programming-In-Scala/chapter2/test.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.23 12:20:54 INFO  Attempting to connect to the build server...[0m
+2025.12.23 12:20:54 INFO  Running BSP server List(/home/hachoj/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-options-v2.json, --json-launcher-options, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-launcher-options.json, --envs-file, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-envs.json, /home/hachoj/Projects/Functional-Programming-In-Scala)[0m
+2025.12.23 12:20:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/hachoj/Projects/Functional-Programming-In-Scala/.metals/bsp.trace.json or /home/hachoj/.cache/metals/bsp.trace.json[0m
+2025.12.23 12:20:55 INFO  time: Connected to build server in 0.76s[0m
+2025.12.23 12:20:54 INFO  Connected to Build server: scala-cli v1.11.0[0m
+2025.12.23 12:20:55 INFO  time: Imported build in 0.14s[0m
+2025.12.23 12:20:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-25-openjdk/src.zip, /usr/lib/jvm/java-25-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.12.23 12:20:58 INFO  time: indexed workspace in 2.85s[0m
+Dec 23, 2025 12:21:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.12.23 12:35:37 INFO  Shutting down server[0m
+2025.12.23 12:35:37 INFO  shutting down Metals[0m
+2025.12.23 12:35:37 INFO  Shut down connection with build server.[0m
+2025.12.23 12:35:37 INFO  BSP server: Dec 23, 2025 12:35:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2025.12.23 12:35:37 INFO  Cancelling compilation on scala-cli server[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@29ee9faa[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 613]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:539)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@29ee9faa[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 613]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2032)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:787)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1328)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:539)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
