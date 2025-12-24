@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Scala build / tooling
+# (covers Scala CLI and some sbt/other tooling outputs)
+.scala-build/
+.bloop/
+.metals/
+.bsp/
+
+# sbt
+project/target/
+target/
+lib_managed/
+src_managed/
+
+# Scala worksheets / REPL / Ammonite
+*.sc.lock
+*.worksheet.sc
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Vim / Emacs
+*~
+.*.swp
+.*.swo
+
+# JDK / JVM
+hs_err_pid*
+replay_pid*

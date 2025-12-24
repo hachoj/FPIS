@@ -1143,3 +1143,42 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.Thread.run(Thread.java:1583)
 [0m
 2025.12.24 13:33:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/harrisonchojnowski/Projects/Functional-Programming-in-Scala/.metals/bsp.trace.json or /Users/harrisonchojnowski/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.12.24 13:34:09 INFO  no build target found for /Users/harrisonchojnowski/Projects/Functional-Programming-in-Scala/chapter2/fib.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.24 13:34:17 INFO  no build target found for /Users/harrisonchojnowski/Projects/Functional-Programming-in-Scala/chapter2/MyProgram.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.24 13:34:39 ERROR Timeout waiting for 'build/initialize' response[0m
+2025.12.24 13:34:39 WARN  Retrying connection to the build server scala-cli[0m
+2025.12.24 13:34:39 INFO  Running BSP server List(/home/hachoj/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-options-v2.json, --json-launcher-options, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-launcher-options.json, --envs-file, /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-envs.json, /home/hachoj/Projects/Functional-Programming-In-Scala)[0m
+2025.12.24 13:34:39 ERROR Running process '/home/hachoj/.local/share/coursier/bin/.scala-cli.aux bsp --json-options /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-options-v2.json --json-launcher-options /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-launcher-options.json --envs-file /home/hachoj/Projects/Functional-Programming-In-Scala/.scala-build/ide-envs.json /home/hachoj/Projects/Functional-Programming-In-Scala' failed
+java.io.IOException: Cannot run program "/home/hachoj/.local/share/coursier/bin/.scala-cli.aux" (in directory "/Users/harrisonchojnowski/Projects/Functional-Programming-in-Scala"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:295)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:225)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:631)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:700)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:717)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:714)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+[0m
+2025.12.24 13:34:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/harrisonchojnowski/Projects/Functional-Programming-in-Scala/.metals/bsp.trace.json or /Users/harrisonchojnowski/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
