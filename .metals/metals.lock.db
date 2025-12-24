@@ -1,4 +1,6 @@
 #FileLock
-#Tue Dec 23 12:35:37 PST 2025
-id=19b4cecad83f0bd7e797f0eb98560bb2b2b1537009d
+#Wed Dec 24 13:30:38 PST 2025
+hostName=localhost
+id=19b5245675b19f8173d48027dec3428862c96ac4605
 method=file
+server=localhost\:54470
